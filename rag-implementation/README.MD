@@ -51,19 +51,19 @@ Then navigate to and open `rag_implementation.ipynb.`
 Execute each cell sequentially.
 
 ### 🧪 Pipeline Workflow
-- ## Load PDF ##
+- Load PDF
 Using PyPDFLoader from langchain_community.document_loaders.
 
-- ## Split Text into Chunks ##
+- Split Text into Chunks
 Using RecursiveCharacterTextSplitter to create overlapping text segments for embedding.
 
-- ## Generate Embeddings ##
+- Generate Embeddings
 Using sentence-transformers/all-MiniLM-L6-v2 via HuggingFace to encode each chunk.
 
-- ## Store in FAISS Vectorstore ##
+-Store in FAISS Vectorstore
 The embeddings are indexed using FAISS for fast similarity search.
 
-- ## Retrieve Chunks Based on Query ##
+- Retrieve Chunks Based on Query
 A retriever fetches the most relevant chunks for a user-supplied question.
 
 - ## Generate Answer Using LLM ##

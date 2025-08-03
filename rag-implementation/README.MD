@@ -60,7 +60,7 @@ Using RecursiveCharacterTextSplitter to create overlapping text segments for emb
 - Generate Embeddings
 Using sentence-transformers/all-MiniLM-L6-v2 via HuggingFace to encode each chunk.
 
--Store in FAISS Vectorstore
+- Store in FAISS Vectorstore
 The embeddings are indexed using FAISS for fast similarity search.
 
 - Retrieve Chunks Based on Query

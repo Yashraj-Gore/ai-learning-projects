@@ -50,7 +50,7 @@ jupyter notebook
 Then navigate to and open `rag_implementation.ipynb.` 
 Execute each cell sequentially.
 
-### 🧪 Pipeline Workflow
+## 🧪 Pipeline Workflow
 - Load PDF
 Using PyPDFLoader from langchain_community.document_loaders.
 

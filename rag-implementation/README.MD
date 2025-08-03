@@ -66,5 +66,5 @@ The embeddings are indexed using FAISS for fast similarity search.
 - Retrieve Chunks Based on Query
 A retriever fetches the most relevant chunks for a user-supplied question.
 
-- ## Generate Answer Using LLM ##
+- Generate Answer Using LLM
 The retrieved chunks are passed into ChatOllama, which calls the tinyllama model hosted locally.
